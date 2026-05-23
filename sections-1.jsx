@@ -13,7 +13,7 @@ function Navbar({ theme, onToggle }) {
        <a href="#" className="brand">
 
   <img 
-    src="/alto.ai.png" 
+    src="/Alto.ai.png" 
     alt="Alto Retail Logo" 
     className="h-2  object-contain" width = "100px" />
     </a>
