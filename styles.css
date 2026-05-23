@@ -8,10 +8,10 @@
   --fg-mute: #6B7689;
   --border: rgba(11, 18, 38, 0.10);
   --border-strong: rgba(11, 18, 38, 0.18);
-  --accent: #c94d0f;
+  --accent: #ff6725;
   --accent-soft: rgba(201, 77, 15, 0.10);
   --accent-fg: #ffffff;
-  --critical: #C8362E;
+  --critical: #ff6725;
   --critical-soft: rgba(200, 54, 46, 0.10);
   --warn: #B5781A;
   --warn-soft: rgba(181, 120, 26, 0.12);

@@ -334,9 +334,6 @@ function Footer() {
       <div className="wrap">
         <div className="foot-grid">
           <div>
-            <a href="#" className="brand">
-              alto<span className="brand-dot"></span><span className="brand-mute">retail</span>
-            </a>
             <div className="tagline">Predict. Reallocate. Deliver. Seamlessly.</div>
           </div>
           <div>
@@ -359,7 +356,7 @@ function Footer() {
           </div>
         </div>
         <div className="foot-bottom">
-          <span>© 2025 ALTO.RETAIL · ALL RIGHTS RESERVED</span>
+          <span>© 2025 ALTO.ai · ALL RIGHTS RESERVED</span>
           <span>v2.6.0 · CHENNAI / BANGALORE</span>
         </div>
       </div>

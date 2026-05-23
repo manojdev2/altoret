@@ -10,9 +10,14 @@ function Navbar({ theme, onToggle }) {
   return (
     <header className={`nav ${scrolled ? 'scrolled' : ''}`}>
       <div className="wrap nav-row">
-        <a href="#" className="brand">
-          alto<span className="brand-dot"></span><span className="brand-mute">retail</span>
-        </a>
+       <a href="#" className="brand">
+
+  <img 
+    src="/alto.ai.png" 
+    alt="Alto Retail Logo" 
+    className="h-2  object-contain" width = "100px" />
+    </a>
+  
         <nav className="nav-links">
           <a href="#features">Features</a>
           <a href="#how">How It Works</a>
@@ -27,7 +32,9 @@ function Navbar({ theme, onToggle }) {
           <button className="btn btn-primary btn-sm">Request Demo</button>
         </div>
       </div>
+      
     </header>
+    
   );
 }
 
@@ -50,7 +57,7 @@ function Hero() {
             stock reallocation — so you never overstock or miss a sale.
           </p>
           <div className="hero-ctas">
-            <button className="btn btn-primary">See It Live <Icon.Arrow /></button>
+            <a href="https://alto-theta.vercel.app/dashboard/dashboard-index"><button className="btn btn-primary">See It Live <Icon.Arrow /></button></a>
             <button className="btn btn-ghost">Watch Demo</button>
           </div>
           <div className="hero-meta">
@@ -291,8 +298,19 @@ function ProblemStrip() {
   ];
   return (
     <section id="problem">
-      <div className="wrap">
+<iframe
+  width="100%"
+  height="500"
+  src="https://player.vimeo.com/video/1109621598?h=f0afb8d117&autoplay=1&muted=1&loop=1&background=1"
+  title="Alto AI Video"
+  frameBorder="0"
+  allow="autoplay; fullscreen"
+  allowFullScreen
+  className="rounded-2xl"
+></iframe>
+<div className="wrap">
         <div className="section-head">
+
           <span className="eyebrow">The Problem</span>
           <h2 className="section-title">Retail loses 8% of revenue to mis-allocated inventory.</h2>
         </div>

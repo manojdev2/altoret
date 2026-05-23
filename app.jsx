@@ -1,19 +1,19 @@
 // ============ App ============
 const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
   "accentDark": "#fe6624",
-  "accentLight": "#c94d0f",
+  "accentLight": "#FF6725",
   "density": "regular",
   "fontStack": "Geist"
 }/*EDITMODE-END*/;
 
 const ACCENT_PRESETS_DARK = [
-  '#fe6624', // orange (default)
+  '#ff6725', // orange (default)
   '#6FA5FF', // sky
   '#D97757', // terra
   '#B58CFF', // violet
 ];
 const ACCENT_PRESETS_LIGHT = [
-  '#c94d0f', // burnt orange (default)
+  '#ff6725', // burnt orange (default)
   '#1F5BB8', // ink blue
   '#A04A2E', // burnt sienna
   '#5A3DB0', // royal
@@ -64,7 +64,7 @@ function App() {
         <Features />
         <MetricsBand />
         <InTheField />
-        <UseCase />
+{/*         <UseCase /> */}
         <StockPulse />
         <Roadmap />
         <CTABanner />
